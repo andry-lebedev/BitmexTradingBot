@@ -32,13 +32,13 @@ class Trader():
                     symbol="XBTUSD",
                     side="Sell",
                     stopPx=stop_price,
-                    orderQty=1000,
+                    orderQty=AMOUNT_MONEY_TO_TRADE,
                 ).result()
                 self.client.Order.Order_new(
                     symbol="XBTUSD",
                     side="Sell",
                     price=sell_price,
-                    orderQty=1000,
+                    orderQty=AMOUNT_MONEY_TO_TRADE,
                 ).result()
                 #timer to wait 10 seconds
                 time_to_sleep = 10
@@ -57,7 +57,7 @@ class Trader():
                         symbol="XBTUSD",
                         side="Sell",
                         price=sell2_price,
-                        orderQty=1000,
+                        orderQty=AMOUNT_MONEY_TO_TRADE,
                     ).result()
                 except Exception as e:
                     pass
