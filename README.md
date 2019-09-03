@@ -11,3 +11,5 @@
 After coin is bought immediately set stop-limit order to actual buy price - 0.2% and set sell price to buy price +0.2%, after 10 seconds lower the sell price to buy price +0.1%
 ******************************************************************
 Run mainloop to activate 
+******************************************************************
+Wrote test Gui, but its not stable on windows. If its necessary, i can add.
