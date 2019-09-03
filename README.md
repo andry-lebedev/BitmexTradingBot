@@ -1,5 +1,5 @@
 # wcaholdings
-#EXAMPLE STRATEGY
+
  
 ******************************************************************
 1. Buy only when all the requirements under are met. Pair is XBT-USD, you can have maximum  of 1 trade at the same time:
@@ -9,3 +9,5 @@
 2. When the requirements are met, set market buy order.
  
 After coin is bought immediately set stop-limit order to actual buy price - 0.2% and set sell price to buy price +0.2%, after 10 seconds lower the sell price to buy price +0.1%
+******************************************************************
+Run mainloop to activate 
