@@ -12,4 +12,4 @@ After coin is bought immediately set stop-limit order to actual buy price - 0.2%
 ******************************************************************
 Run mainloop to activate 
 ******************************************************************
-Wrote test Gui, but its not stable on windows. If its necessary, i can add.
+
